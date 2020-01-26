@@ -1,0 +1,48 @@
+*{ 
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 40%;    
+}
+
+.body {
+   background-color: antiquewhite;
+}
+
+.header {
+    text-align: center;
+    font-family: Didact Gothic;
+    font-size: 5rem;
+    font-weight:400;
+    color: #B5DCCD
+}
+
+.site-nav {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    font-family: Didact Gothic;
+    font-size: 2rem;    
+}
+
+.site-nav li {
+    display: inline;
+}    
+
+.site-nav a {
+    text-decoration: none;
+    color: darkgreen;
+    padding: 4rem;
+}
+
+.site-nav a:hover {
+    font-size: 2.5rem;
+}
+
+   
+
+ 
