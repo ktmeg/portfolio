@@ -49,8 +49,8 @@ img{
     text-align: left;
     justify-content: flex-start;
     align-items: baseline;
-    margin-left: 5rem;
-    margin-top: 5rem;
+    margin: 5rem 0 5rem 18rem;
+    max-width: 30rem;
 }
 
 .hi {
@@ -65,15 +65,16 @@ img{
     color: #AB7550;
     font-size: 1.1rem;
     font-family: "Didact Gothic";
-    margin-right: 10rem;
 }
 
 .pic {
+    display: flex;
+    justify-content: flex-end;
     border-radius: 40%;
     border: #B5DCCD; 
     border-width: 4rem; 
     margin-top: 2rem;
-    align-content: left;  
+     
 }
 
 .skills {
