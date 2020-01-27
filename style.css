@@ -49,7 +49,7 @@ img{
     text-align: left;
     justify-content: flex-start;
     align-items: baseline;
-    margin-left: 10rem;
+    margin-left: 5rem;
     margin-top: 5rem;
 }
 
@@ -65,7 +65,7 @@ img{
     color: #AB7550;
     font-size: 1.1rem;
     font-family: "Didact Gothic";
-    margin-right: 50rem;
+    margin-right: 10rem;
 }
 
 .pic {
@@ -88,6 +88,7 @@ img{
     /* border-radius: 40%; */
     padding: .4rem;
     background-color: #B5DCCD;
+    
 }
 
 .expandedu {
@@ -109,10 +110,27 @@ img{
     font-size: 1.1rem;
     font-family: "Didact Gothic";
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem;
+    list-style-type: none;
+    
 }
 
 .footer {
     padding: 10rem;
     
+}
+
+.project1{
+ background-image: linear-gradient( rgba(30, 200, 205, 0.5), rgba(30, 200, 205, 0.5)), url(starter_files/images/donate.jpg);
+ max-width: 10rem;
+ max-height: 10rem;
+ text-decoration: none;
+ color: #F6F0EB;
+ font-family: "Didact Gothic";
+ font-size: 3rem;
+ font-weight: bolder;
+}
+
+.project1 a:hover {
+    font-style: italic;
 }
